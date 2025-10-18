@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fluxo Mato Grosso</title>
+  <meta name="description" content="Fluxo Mato Grosso — Notícias, vídeos e ações comunitárias de Mato Grosso." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Fluxo Mato Grosso</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <h2>Notícias e ações da região</h2>
+      <p>Conteúdo local, denúncias e reportagens de Nova Olímpia e Tangará da Serra.</p>
+    </section>
+
+    <section id="videos">
+      <h3>Último vídeo</h3>
+      <!-- embute um vídeo do YouTube -->
+      <div class="video-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/COLE_AQUI_O_ID" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p><a href="https://www.youtube.com/@SEU_CANAL" target="_blank">Veja todos os vídeos no YouTube</a></p>
+    </section>
+
+    <section id="posts">
+      <h3>Últimas publicações</h3>
+      <article class="post">
+        <h4>Título da matéria</h4>
+        <p>Resumo curto — clique para ler mais.</p>
+        <a href="posts/post1.html">Ler mais →</a>
+      </article>
+      <!-- duplique articles para novos posts -->
+    </section>
+
+    <section id="sobre">
+      <h3>Sobre a Fluxo Mato Grosso</h3>
+      <p>Descrição curta sobre missão e atuação.</p>
+    </section>
+
+    <section id="contato">
+      <h3>Contato</h3>
+      <p>Email: <a href="mailto:contato@fluxomatogrosso.com">contato@fluxomatogrosso.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/SEU_USUARIO" target="_blank">@seu_usuario</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="ano"></span> Fluxo Mato Grosso</div>
+  </footer>
+
+<script>
+  document.getElementById('ano').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
